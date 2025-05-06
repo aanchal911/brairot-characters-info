@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Italian Brainrot Fandom</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <h1>Italian Brainrot Fandom</h1>
+    <ul>
+      <li>Characters</li>
+      <li>Lore</li>
+      <li>Gallery</li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2>Welcome to the chaos of your favorite Italian Brainrot characters</h2>
+    <p>From Bombardiro Crocodilo's rampage to Tung Tung Sahur's mysterious chants and Tralalero Tralala's whimsical nonsense—we've got it all!</p>
+  </header>
+
+  <section class="character-grid">
+    <div class="card" onclick="expandCard('bombardiro')">
+      <img src="Bombardiro_Crocodilo.webp" alt="Bombardiro Crocodilo">
+      <h3>Bombardiro Crocodilo</h3>
+    </div>
+    <div class="card" onclick="expandCard('sahur')">
+      <img src="tung tung tung tung sahur.jpeg" alt="Tung Tung Sahur">
+      <h3>Tung Tung Sahur</h3>
+    </div>
+    <div class="card" onclick="expandCard('tralalero')">
+      <img src="tralalero tralala.jpeg" alt="Tralalero Tralala">
+      <h3>Tralalero Tralala</h3>
+    </div>
+  </section>
+
+  <section class="table-section">
+    <h2>Bombardiro Crocodilo</h2>
+    <table class="character-table">
+      <tr><th>Power</th><th>Brainrot Level</th><th>Role</th></tr>
+      <tr><td title="Explodes on command">Kaboom Rage</td><td>🌪️🌪️🌪️🌪️</td><td>Tank</td></tr>
+    </table>
+
+    <h2>Tung Tung Sahur</h2>
+    <table class="character-table">
+      <tr><th>Power</th><th>Brainrot Level</th><th>Role</th></tr>
+      <tr><td title="Chants that cause disorientation">Echo Disrupt</td><td>🌀🌀🌀🌀🌀</td><td>Chaos Mage</td></tr>
+    </table>
+
+    <h2>Tralalero Tralala</h2>
+    <table class="character-table">
+      <tr><th>Power</th><th>Brainrot Level</th><th>Role</th></tr>
+      <tr><td title="Nonsense that breaks logic">Whimsy Warp</td><td>✨✨✨✨</td><td>Reality Bender</td></tr>
+    </table>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Italian Brainrot Fandom. All nonsense reserved.</p>
+  </footer>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p id="modal-text">Character Info</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
